@@ -19,6 +19,12 @@
         android:layout_height="wrap_content"
         android:text="IMCApp"/>
 
+    <Button
+        android:id="@+id/btnToDoApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToDo App"/>
+
 
 
 </LinearLayout>
