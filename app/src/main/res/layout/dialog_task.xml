@@ -10,7 +10,7 @@
         android:id="@+id/etTask"
         android:backgroundTint="@color/white"
         android:layout_width="match_parent"
-        android:hint="Añadir tarea"
+        android:hint="Añadir tarea nueva:"
         android:textColorHint="@color/todo_subtitle_text"
         android:textColor="@color/white"
         android:layout_height="wrap_content"/>
