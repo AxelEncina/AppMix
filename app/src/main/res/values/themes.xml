@@ -28,4 +28,10 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <!-- Aca puedo poner todos los estilos definidos como un tema
+        <style name="TodoSubtitle">
+            <item name="textAllCaps">true</item>
+            <item name="android:layout_marginHorizontal">32dp</item>
+        </style> -->
+
 </resources>
