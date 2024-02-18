@@ -18,7 +18,7 @@ class ResultImcActivity : AppCompatActivity() {
     private lateinit var btnReCalculate: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_result_imc)
+        setContentView(R.layout.activity_result_imcactivity)
         val result = intent.extras?.getDouble("result") ?: -1.0
         initComponent()
         initUI(result)
@@ -45,7 +45,7 @@ class ResultImcActivity : AppCompatActivity() {
             }
             in 24.91..29.90 -> {
                 tvDescription.text = "Sobrepeso"
-                tvDescription.setTextColor(ContextCompat.getColor(this, R.color.sobrepeso))
+                tvDescription.setTextColor(ContextCompat.getColor(this, R.color.peso_sobrepeso))
             }
             in 29.91..100.00 -> {
                 tvDescription.text = "Obesidad"
@@ -62,6 +62,6 @@ class ResultImcActivity : AppCompatActivity() {
         tvResult = findViewById(R.id.tvResult)
         tvDescription = findViewById(R.id.tvDescription)
         tvIMC = findViewById(R.id.tvIMC)
-        btnReCalculate = findViewById(R.id.btnReCalculate)
+        btnReCalculate = findViewById(R.id.btnRecalculate)
     }
 }
