@@ -7,6 +7,7 @@ import android.widget.Button
 import com.example.androidmaster.todoapp.TodoActivity
 import com.example.androidmaster.firstapp.FirstAppActivity
 import com.example.androidmaster.imcapp.ImcCalculatorActivity
+import com.example.androidmaster.recyclerviewexample.RecyclerViewExampleActivity
 import com.example.androidmaster.settings.SettingsActivity
 import com.example.androidmaster.superheroapp.SuperHeroListActivity
 
@@ -26,6 +27,14 @@ class MenuActivity : AppCompatActivity() {
         btnToDo.setOnClickListener { navigateToToDoApp() }
         val btnSuperHeroList = findViewById<Button>(R.id.btnSuperhero)
         btnSuperHeroList.setOnClickListener { navigateToSuperHeroList() }
+        val btnRecyclerViewExample = findViewById<Button>(R.id.btnRecyclerViewExample)
+        btnRecyclerViewExample.setOnClickListener { navigateToRecyclerViewExample() }
+    }
+
+    private fun navigateToRecyclerViewExample() {
+        val intent = Intent(this, RecyclerViewExampleActivity::class.java)
+        //intent.putExtra("name", "Android Master")
+        startActivity(intent)
     }
 
     private fun navigateToSettings() {

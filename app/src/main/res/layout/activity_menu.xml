@@ -37,4 +37,10 @@
         android:layout_height="wrap_content"
         android:text="Settings"/>
 
+    <Button
+        android:id="@+id/btnRecyclerViewExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RV EJEMPLO"/>
+
 </LinearLayout>
