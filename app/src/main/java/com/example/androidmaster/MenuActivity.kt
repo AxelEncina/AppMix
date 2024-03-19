@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.androidmaster.examplemvvm.view.ExampleMVVMActivity
 import com.example.androidmaster.todoapp.TodoActivity
 import com.example.androidmaster.firstapp.FirstAppActivity
 import com.example.androidmaster.imcapp.ImcCalculatorActivity
@@ -29,6 +30,14 @@ class MenuActivity : AppCompatActivity() {
         btnSuperHeroList.setOnClickListener { navigateToSuperHeroList() }
         val btnRecyclerViewExample = findViewById<Button>(R.id.btnRecyclerViewExample)
         btnRecyclerViewExample.setOnClickListener { navigateToRecyclerViewExample() }
+        val btnMVVMExample = findViewById<Button>(R.id.btnExampleMVVM)
+        btnMVVMExample.setOnClickListener { navigateToExampleMVVM() }
+    }
+
+    private fun navigateToExampleMVVM() {
+        val intent = Intent(this, ExampleMVVMActivity::class.java)
+        //intent.putExtra("name", "Android Master")
+        startActivity(intent)
     }
 
     private fun navigateToRecyclerViewExample() {

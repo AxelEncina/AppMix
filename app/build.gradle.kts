@@ -43,9 +43,9 @@ android {
 
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.8.0")
+    implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
@@ -59,4 +59,12 @@ dependencies {
     implementation ("com.squareup.picasso:picasso:2.8")
 
     implementation("androidx.datastore:datastore-preferences:1.0.0")
+    //ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+    //LiveData --> conexión entre activity y viewmodel, livedata avisa atraves del patron observer a nuestro activity
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+    //Fragment
+    implementation("androidx.fragment:fragment-ktx:1.6.2")
+    //Activity
+    implementation("androidx.activity:activity-ktx:1.8.2")
 }
