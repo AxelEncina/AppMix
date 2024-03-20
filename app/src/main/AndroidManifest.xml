@@ -15,7 +15,7 @@
         android:theme="@style/Theme.AndroidMaster"
         tools:targetApi="34">
         <activity
-            android:name=".examplemvvm.view.ExampleMVVMActivity"
+            android:name=".examplemvvm.ui.view.ExampleMVVMActivity"
             android:exported="false" />
         <activity
             android:name=".recyclerviewexample.RecyclerViewExampleActivity"

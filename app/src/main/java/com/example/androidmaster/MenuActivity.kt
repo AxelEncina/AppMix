@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.example.androidmaster.examplemvvm.view.ExampleMVVMActivity
+import com.example.androidmaster.examplemvvm.ui.view.ExampleMVVMActivity
 import com.example.androidmaster.todoapp.TodoActivity
 import com.example.androidmaster.firstapp.FirstAppActivity
 import com.example.androidmaster.imcapp.ImcCalculatorActivity
