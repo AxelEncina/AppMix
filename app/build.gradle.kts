@@ -3,6 +3,8 @@ import org.jetbrains.kotlin.storage.CacheResetOnProcessCanceled.enabled
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -70,4 +72,8 @@ dependencies {
     implementation("androidx.fragment:fragment-ktx:1.6.2")
     //Activity
     implementation("androidx.activity:activity-ktx:1.8.2")
+
+    //dagger hilt
+    implementation("com.google.dagger:hilt-android:2.48")
+    kapt("com.google.dagger:hilt-compiler:2.48")
 }

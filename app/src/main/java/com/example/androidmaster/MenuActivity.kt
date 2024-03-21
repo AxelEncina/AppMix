@@ -12,7 +12,6 @@ import com.example.androidmaster.recyclerviewexample.RecyclerViewExampleActivity
 import com.example.androidmaster.settings.SettingsActivity
 import com.example.androidmaster.superheroapp.SuperHeroListActivity
 
-
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
