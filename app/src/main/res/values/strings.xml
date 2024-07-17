@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidMasterMix</string>
+    <string name="app_name">AppMix</string>
 
     <!--IMC APP-->
     <string name="male">Hombre</string>

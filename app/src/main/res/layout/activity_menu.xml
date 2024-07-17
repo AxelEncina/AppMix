@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
+    android:layout_margin="20dp"
     android:orientation="vertical"
     tools:context=".MenuActivity">
 
@@ -23,7 +23,7 @@
         android:id="@+id/btnTODO"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TODO App"/>
+        android:text="Event List app"/>
 
     <Button
         android:id="@+id/btnSuperhero"
@@ -32,21 +32,21 @@
         android:text="SuperHero App"/>
 
     <Button
-        android:id="@+id/btnSettings"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Settings"/>
-
-    <Button
         android:id="@+id/btnRecyclerViewExample"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RV EJEMPLO"/>
+        android:text="Recycler view example"/>
 
     <Button
         android:id="@+id/btnExampleMVVM"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="mvvm"/>
+        android:text="mvvm app"/>
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"/>
 
 </LinearLayout>
