@@ -4,9 +4,7 @@ Aplicación para Android con multiples activities con diferentes funcionalidadde
 
 Saludo - IMC - To do App - Superhero searcher - RecyclerView example - Architecture MVVM example - Settings
 
-![image](https://github.com/user-attachments/assets/0b1599a1-4816-4d93-93e6-ec6d4bc41a28)
-
-![image](https://github.com/user-attachments/assets/71624841-1194-4c2c-ab01-2b4a2e946331)
+![image](https://github.com/user-attachments/assets/0b1599a1-4816-4d93-93e6-ec6d4bc41a28) ![image](https://github.com/user-attachments/assets/71624841-1194-4c2c-ab01-2b4a2e946331)
 
 ![image](https://github.com/user-attachments/assets/fdba22d7-1f02-4d18-852f-6b19ae07c665)
 
